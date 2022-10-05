@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+header ul {
+    display: inline-block;
+    margin: auto;
+    background-color: rgba(248, 211, 3, 0.986);
+    height: 40px;
+    padding-top: 20px;
+}
+
+header li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 30px;
+    padding: 30px;
+}
+
+header .homepage-text {
+    color: rgba(94, 37, 4, 0.795);
+    text-align: right;
+}
+
+header .nav-text {
+    color: azure;
+}
+
+.container-section {
+    display: inline-block;
+    width: 70%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 30px;
+}
+
+.container-section table {
+    display: inline-block;
+    text-align: center;
+    font-size: 70px;
+}
+
+.text-amarelo {
+    color: rgba(248, 211, 3, 0.986);
+}
+
+.container section p {
+    text-transform: uppercase;
+    color: rgb(104, 102, 102);
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.div-principal {
+    max-width: 100%;
+    height: 700px;
+}
+
+main {
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-left: 20%;
+    background-color: white;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    height: 100%;
+    margin-right: 20%;
+    background-color: rgba(248, 211, 3, 0.986);
+}
+
+.div-principal .container {
+    padding: 20px 30px;
+}
+
+.div-principal .container .titulo {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.div-principal .container .data {
+    float: left;
+}
+
+.div-principal .container .posted {
+    float: right;
+    font-size: 20px;
+}
+
+.div-principal .container .paragrafos {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.div-principal .container .btn {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+aside .text-destaque {
+    margin: 0px 0 30px 0;
+    font-weight: bold;
+}
+
+aside input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+aside li {
+    list-style: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+aside hr {
+    border: 0;
+    border-bottom: 1px solid rgba(94, 37, 4, 0.795);
+}
+
+#p {
+    margin-bottom: 20px;
+}
+
+#lista1 {
+    padding-top: 0;
+}
